@@ -29,7 +29,7 @@ Product.init(
     }
   },
   stock: {
-    type: DataTypes.Integer,
+    type: DataTypes.INTEGER,
     allowNull: false,
     defaultValue: 10,
     validate: {
